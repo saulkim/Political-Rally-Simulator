@@ -1,0 +1,643 @@
+# data file for the Fltk User Interface Designer (fluid)
+version 1.0305
+header_name {.h}
+code_name {.cxx}
+decl {\#include <FL/Fl_Chart.H>} {public global
+}
+
+class UserInterface {open
+} {
+  Function {createWindow()} {open
+  } {
+    Fl_Window {} {
+      label {Political Rally Simulator} open
+      xywh {78 100 1024 600} type Double size_range {1024 600 1024 600} visible
+    } {
+      Fl_Group rallyView {
+        image {Resources/rallyImage.png} xywh {0 0 630 500} color 7 align 17
+      } {
+        Fl_Output textOutputField {
+          xywh {105 241 150 24}
+        }
+        Fl_Group audienceGroup {open
+          xywh {340 0 290 320}
+        } {
+          Fl_Group row1 {open
+            xywh {340 0 290 80}
+          } {
+            Fl_Group person1A {
+              xywh {340 0 73 80}
+            } {
+              Fl_Group head1A {open
+                xywh {365 5 30 25}
+              } {
+                Fl_Group happy1A {open
+                  image {Resources/happy.png} xywh {365 5 30 25} align 0 hide
+                } {}
+                Fl_Group angry1A {open
+                  image {Resources/angry.png} xywh {365 5 30 25} align 0 hide
+                } {}
+                Fl_Group neutral1A {open
+                  image {Resources/neutral.png} xywh {365 5 30 25} align 0 hide
+                } {}
+              }
+              Fl_Group body1A {
+                xywh {360 30 39 35} align 0
+              } {
+                Fl_Group car1A {open
+                  image {Resources/car.png} xywh {360 30 39 35} align 0 hide
+                } {}
+                Fl_Group music1A {open
+                  image {Resources/music.png} xywh {360 30 39 35} align 0 hide
+                } {}
+                Fl_Group sword1A {open
+                  image {Resources/sword.png} xywh {360 30 39 35} align 0 hide
+                } {}
+                Fl_Group tree1A {open
+                  image {Resources/tree.png} xywh {360 30 39 35} align 0 hide
+                } {}
+              }
+            }
+            Fl_Group person1B {
+              xywh {415 0 73 80}
+            } {
+              Fl_Group head1B {
+                xywh {435 5 30 25}
+              } {
+                Fl_Group happy1B {open
+                  image {Resources/happy.png} xywh {435 5 30 25} align 0 hide
+                } {}
+                Fl_Group angry1B {open
+                  image {Resources/angry.png} xywh {435 5 30 25} align 0 hide
+                } {}
+                Fl_Group neutral1B {open
+                  image {Resources/neutral.png} xywh {435 5 30 25} align 0 hide
+                } {}
+              }
+              Fl_Group body1B {
+                xywh {430 30 39 35} align 0
+              } {
+                Fl_Group car1B {open
+                  image {Resources/car.png} xywh {430 30 39 35} align 0 hide
+                } {}
+                Fl_Group music1B {open
+                  image {Resources/music.png} xywh {430 30 39 35} align 0 hide
+                } {}
+                Fl_Group sword1B {open
+                  image {Resources/sword.png} xywh {430 30 39 35} align 0 hide
+                } {}
+                Fl_Group tree1B {open
+                  image {Resources/tree.png} xywh {430 30 39 35} align 0 hide
+                } {}
+              }
+            }
+            Fl_Group person1C {
+              xywh {488 0 73 80}
+            } {
+              Fl_Group head1C {
+                xywh {505 5 30 25}
+              } {
+                Fl_Group happy1C {open
+                  image {Resources/happy.png} xywh {505 5 30 25} align 0 hide
+                } {}
+                Fl_Group angry1C {open
+                  image {Resources/angry.png} xywh {505 5 30 25} align 0 hide
+                } {}
+                Fl_Group neutral1C {open
+                  image {Resources/neutral.png} xywh {505 5 30 25} align 0 hide
+                } {}
+              }
+              Fl_Group body1C {
+                xywh {500 30 39 35}
+              } {
+                Fl_Group car1C {open
+                  image {Resources/car.png} xywh {500 30 39 35} align 0 hide
+                } {}
+                Fl_Group music1C {open
+                  image {Resources/music.png} xywh {500 30 39 35} align 0 hide
+                } {}
+                Fl_Group sword1C {open
+                  image {Resources/sword.png} xywh {500 30 39 35} align 0 hide
+                } {}
+                Fl_Group tree1C {open
+                  image {Resources/tree.png} xywh {500 30 39 35} align 0 hide
+                } {}
+              }
+            }
+            Fl_Group person1D {
+              xywh {556 0 73 80}
+            } {
+              Fl_Group head1D {
+                xywh {575 5 30 25}
+              } {
+                Fl_Group happy1D {open
+                  image {Resources/happy.png} xywh {575 5 30 25} align 0 hide
+                } {}
+                Fl_Group angry1D {open
+                  image {Resources/angry.png} xywh {575 5 30 25} align 0 hide
+                } {}
+                Fl_Group neutral1D {open
+                  image {Resources/neutral.png} xywh {575 5 30 25} align 0 hide
+                } {}
+              }
+              Fl_Group body1D {
+                xywh {575 30 39 35}
+              } {
+                Fl_Group car1D {open
+                  image {Resources/car.png} xywh {575 30 39 35} align 0 hide
+                } {}
+                Fl_Group music1D {open
+                  image {Resources/music.png} xywh {575 30 39 35} align 0 hide
+                } {}
+                Fl_Group sword1D {open
+                  image {Resources/sword.png} xywh {575 30 39 35} align 0 hide
+                } {}
+                Fl_Group tree1D {open
+                  image {Resources/tree.png} xywh {575 30 39 35} align 0 hide
+                } {}
+              }
+            }
+          }
+          Fl_Group row2 {open
+            xywh {340 80 290 80}
+          } {
+            Fl_Group person2A {
+              xywh {340 80 73 80}
+            } {
+              Fl_Group head2A {
+                xywh {365 80 30 25}
+              } {
+                Fl_Group happy2A {open
+                  image {Resources/happy.png} xywh {365 80 30 25} align 0 hide
+                } {}
+                Fl_Group angry2A {open
+                  image {Resources/angry.png} xywh {365 80 30 25} align 0 hide
+                } {}
+                Fl_Group neutral2A {open
+                  image {Resources/neutral.png} xywh {365 80 30 25} align 0 hide
+                } {}
+              }
+              Fl_Group body2A {
+                xywh {360 110 39 35}
+              } {
+                Fl_Group car2A {open
+                  image {Resources/car.png} xywh {360 110 39 35} align 0 hide
+                } {}
+                Fl_Group music2A {open
+                  image {Resources/music.png} xywh {360 110 39 35} align 0 hide
+                } {}
+                Fl_Group sword2A {open
+                  image {Resources/sword.png} xywh {360 110 39 35} align 0 hide
+                } {}
+                Fl_Group tree2A {open
+                  image {Resources/tree.png} xywh {360 110 39 35} align 0 hide
+                } {}
+              }
+            }
+            Fl_Group person2B {
+              xywh {415 80 73 80}
+            } {
+              Fl_Group head2B {
+                xywh {435 80 30 25}
+              } {
+                Fl_Group happy2B {open
+                  image {Resources/happy.png} xywh {435 80 30 25} align 0 hide
+                } {}
+                Fl_Group angry2B {open
+                  image {Resources/angry.png} xywh {435 80 30 25} align 0 hide
+                } {}
+                Fl_Group neutral2B {open
+                  image {Resources/neutral.png} xywh {435 80 30 25} align 0 hide
+                } {}
+              }
+              Fl_Group body2B {
+                xywh {430 110 39 35}
+              } {
+                Fl_Group car2B {open
+                  image {Resources/car.png} xywh {430 110 39 35} align 0 hide
+                } {}
+                Fl_Group music2B {open
+                  image {Resources/music.png} xywh {430 110 39 35} align 0 hide
+                } {}
+                Fl_Group sword2B {open
+                  image {Resources/sword.png} xywh {430 110 39 35} align 0 hide
+                } {}
+                Fl_Group tree2B {open
+                  image {Resources/tree.png} xywh {430 110 39 35} align 0 hide
+                } {}
+              }
+            }
+            Fl_Group person2C {open
+              xywh {488 80 73 80}
+            } {
+              Fl_Group head2C {
+                xywh {505 80 30 25}
+              } {
+                Fl_Group happy2C {open
+                  image {Resources/happy.png} xywh {505 80 30 25} align 0 hide
+                } {}
+                Fl_Group angry2C {open
+                  image {Resources/angry.png} xywh {505 80 30 25} align 0 hide
+                } {}
+                Fl_Group neutral2C {open
+                  image {Resources/neutral.png} xywh {505 80 30 25} align 0 hide
+                } {}
+              }
+              Fl_Group body2C {open
+                xywh {500 110 39 35}
+              } {
+                Fl_Group car2C {open
+                  image {Resources/car.png} xywh {500 110 39 35} align 0 hide
+                } {}
+                Fl_Group music2C {open
+                  image {Resources/music.png} xywh {500 110 39 35} align 0 hide
+                } {}
+                Fl_Group sword2C {open
+                  image {Resources/sword.png} xywh {500 110 39 35} align 0 hide
+                } {}
+                Fl_Group tree2C {open
+                  image {Resources/tree.png} xywh {500 110 39 35} align 0 hide
+                } {}
+              }
+            }
+            Fl_Group person2D {
+              xywh {556 80 73 80}
+            } {
+              Fl_Group head2D {
+                xywh {575 80 30 25}
+              } {
+                Fl_Group happy2D {open
+                  image {Resources/happy.png} xywh {575 80 30 25} align 0 hide
+                } {}
+                Fl_Group angry2D {open
+                  image {Resources/angry.png} xywh {575 80 30 25} align 0 hide
+                } {}
+                Fl_Group neutral2D {open
+                  image {Resources/neutral.png} xywh {575 80 30 25} align 0 hide
+                } {}
+              }
+              Fl_Group body2D {
+                xywh {575 110 39 35}
+              } {
+                Fl_Group car2D {open
+                  image {Resources/car.png} xywh {575 110 39 35} align 0 hide
+                } {}
+                Fl_Group music2D {open
+                  image {Resources/music.png} xywh {575 110 39 35} align 0 hide
+                } {}
+                Fl_Group sword2D {open
+                  image {Resources/sword.png} xywh {575 110 39 35} align 0 hide
+                } {}
+                Fl_Group tree2D {open
+                  image {Resources/tree.png} xywh {575 110 39 35} align 0 hide
+                } {}
+              }
+            }
+          }
+          Fl_Group row3 {open
+            xywh {340 160 290 80}
+          } {
+            Fl_Group person3A {open
+              xywh {340 160 73 80}
+            } {
+              Fl_Group head3A {open
+                xywh {365 160 30 25}
+              } {
+                Fl_Group happy3A {open
+                  image {Resources/happy.png} xywh {365 160 30 25} align 0 hide
+                } {}
+                Fl_Group angry3A {open
+                  image {Resources/angry.png} xywh {365 160 30 25} align 0 hide
+                } {}
+                Fl_Group neutral3A {open
+                  image {Resources/neutral.png} xywh {365 160 30 25} align 0 hide
+                } {}
+              }
+              Fl_Group body3A {
+                xywh {360 190 39 35}
+              } {
+                Fl_Group car3A {open
+                  image {Resources/car.png} xywh {360 190 39 35} align 0 hide
+                } {}
+                Fl_Group music3A {open
+                  image {Resources/music.png} xywh {360 190 39 35} align 0 hide
+                } {}
+                Fl_Group sword3A {open
+                  image {Resources/sword.png} xywh {360 190 39 35} align 0 hide
+                } {}
+                Fl_Group tree3A {open
+                  image {Resources/tree.png} xywh {360 190 39 35} align 0 hide
+                } {}
+              }
+            }
+            Fl_Group person3B {
+              xywh {415 160 73 80}
+            } {
+              Fl_Group head3B {
+                xywh {435 160 30 25}
+              } {
+                Fl_Group happy3B {open
+                  image {Resources/happy.png} xywh {435 160 30 25} align 0 hide
+                } {}
+                Fl_Group angry3B {open
+                  image {Resources/angry.png} xywh {435 160 30 25} align 0 hide
+                } {}
+                Fl_Group neutral3B {open
+                  image {Resources/neutral.png} xywh {435 160 30 25} align 0 hide
+                } {}
+              }
+              Fl_Group body3B {
+                xywh {430 190 39 35}
+              } {
+                Fl_Group car3B {open
+                  image {Resources/car.png} xywh {430 190 39 35} align 0 hide
+                } {}
+                Fl_Group music3B {open
+                  image {Resources/music.png} xywh {430 190 39 35} align 0 hide
+                } {}
+                Fl_Group sword3B {open
+                  image {Resources/sword.png} xywh {430 190 39 35} align 0 hide
+                } {}
+                Fl_Group tree3B {open
+                  image {Resources/tree.png} xywh {430 190 39 35} align 0 hide
+                } {}
+              }
+            }
+            Fl_Group person3C {
+              xywh {488 160 73 80}
+            } {
+              Fl_Group head3C {
+                xywh {505 160 30 25}
+              } {
+                Fl_Group happy3C {open
+                  image {Resources/happy.png} xywh {505 160 30 25} align 0 hide
+                } {}
+                Fl_Group angry3C {open
+                  image {Resources/angry.png} xywh {505 160 30 25} align 0 hide
+                } {}
+                Fl_Group neutral3C {open
+                  image {Resources/neutral.png} xywh {505 160 30 25} align 0 hide
+                } {}
+              }
+              Fl_Group body3C {
+                xywh {505 190 39 35}
+              } {
+                Fl_Group car3C {open
+                  image {Resources/car.png} xywh {505 190 39 35} align 0 hide
+                } {}
+                Fl_Group music3C {open
+                  image {Resources/music.png} xywh {505 190 39 35} align 0 hide
+                } {}
+                Fl_Group sword3C {open
+                  image {Resources/sword.png} xywh {505 190 39 35} align 0 hide
+                } {}
+                Fl_Group tree3C {open
+                  image {Resources/tree.png} xywh {505 190 39 35} align 0 hide
+                } {}
+              }
+            }
+            Fl_Group person3D {
+              xywh {556 160 73 80}
+            } {
+              Fl_Group head3D {
+                xywh {575 160 30 25}
+              } {
+                Fl_Group happy3D {open
+                  image {Resources/happy.png} xywh {575 160 30 25} align 0 hide
+                } {}
+                Fl_Group angry3D {open
+                  image {Resources/angry.png} xywh {575 160 30 25} align 0 hide
+                } {}
+                Fl_Group neutral3D {open
+                  image {Resources/neutral.png} xywh {575 160 30 25} align 0 hide
+                } {}
+              }
+              Fl_Group body3D {
+                xywh {575 190 39 35}
+              } {
+                Fl_Group car3D {open
+                  image {Resources/car.png} xywh {575 190 39 35} align 0 hide
+                } {}
+                Fl_Group music3D {open
+                  image {Resources/music.png} xywh {575 190 39 35} align 0 hide
+                } {}
+                Fl_Group sword3D {open
+                  image {Resources/sword.png} xywh {575 190 39 35} align 0 hide
+                } {}
+                Fl_Group tree3D {open
+                  image {Resources/tree.png} xywh {575 190 39 35} align 0 hide
+                } {}
+              }
+            }
+          }
+          Fl_Group row4 {open
+            xywh {340 238 290 80}
+          } {
+            Fl_Group person4A {
+              xywh {340 238 73 80}
+            } {
+              Fl_Group head4A {
+                xywh {365 240 30 25}
+              } {
+                Fl_Group happy4A {open
+                  image {Resources/happy.png} xywh {365 240 30 25} align 0 hide
+                } {}
+                Fl_Group angry4A {open
+                  image {Resources/angry.png} xywh {365 240 30 25} align 0 hide
+                } {}
+                Fl_Group neutral4A {open
+                  image {Resources/neutral.png} xywh {365 240 30 25} align 0 hide
+                } {}
+              }
+              Fl_Group body4A {
+                xywh {360 265 39 35}
+              } {
+                Fl_Group car4A {open
+                  image {Resources/car.png} xywh {360 265 39 35} align 0 hide
+                } {}
+                Fl_Group music4A {open
+                  image {Resources/music.png} xywh {360 265 39 35} align 0 hide
+                } {}
+                Fl_Group sword4A {open
+                  image {Resources/sword.png} xywh {360 265 39 35} align 0 hide
+                } {}
+                Fl_Group tree4A {open
+                  image {Resources/tree.png} xywh {360 265 39 35} align 0 hide
+                } {}
+              }
+            }
+            Fl_Group person4B {
+              xywh {415 238 73 80}
+            } {
+              Fl_Group head4B {
+                xywh {435 240 30 25}
+              } {
+                Fl_Group happy4B {open
+                  image {Resources/happy.png} xywh {435 240 30 25} align 0 hide
+                } {}
+                Fl_Group angry4B {open
+                  image {Resources/angry.png} xywh {435 240 30 25} align 0 hide
+                } {}
+                Fl_Group neutral4B {open
+                  image {Resources/neutral.png} xywh {435 240 30 25} align 0 hide
+                } {}
+              }
+              Fl_Group body4B {
+                xywh {430 265 39 35}
+              } {
+                Fl_Group car4B {open
+                  image {Resources/car.png} xywh {430 265 39 35} align 0 hide
+                } {}
+                Fl_Group music4B {open
+                  image {Resources/music.png} xywh {430 265 39 35} align 0 hide
+                } {}
+                Fl_Group sword4B {open
+                  image {Resources/sword.png} xywh {430 265 39 35} align 0 hide
+                } {}
+                Fl_Group tree4B {open
+                  image {Resources/tree.png} xywh {430 265 39 35} align 0 hide
+                } {}
+              }
+            }
+            Fl_Group person4C {
+              xywh {488 238 73 80}
+            } {
+              Fl_Group head4C {
+                xywh {505 240 30 25}
+              } {
+                Fl_Group happy4C {open
+                  image {Resources/happy.png} xywh {505 240 30 25} align 0 hide
+                } {}
+                Fl_Group angry4C {open
+                  image {Resources/angry.png} xywh {505 240 30 25} align 0 hide
+                } {}
+                Fl_Group neutral4C {open
+                  image {Resources/neutral.png} xywh {505 240 30 25} align 0 hide
+                } {}
+              }
+              Fl_Group body4C {
+                xywh {500 265 39 35}
+              } {
+                Fl_Group car4C {open
+                  image {Resources/car.png} xywh {500 265 39 35} align 0 hide
+                } {}
+                Fl_Group music4C {open
+                  image {Resources/music.png} xywh {500 265 39 35} align 0 hide
+                } {}
+                Fl_Group sword4C {open
+                  image {Resources/sword.png} xywh {500 265 39 35} align 0 hide
+                } {}
+                Fl_Group tree4C {open
+                  image {Resources/tree.png} xywh {500 265 39 35} align 0 hide
+                } {}
+              }
+            }
+            Fl_Group person4D {open
+              xywh {556 238 73 80}
+            } {
+              Fl_Group head4D {
+                xywh {575 240 30 25}
+              } {
+                Fl_Group happy4D {open
+                  image {Resources/happy.png} xywh {575 240 30 25} align 0 hide
+                } {}
+                Fl_Group angry4D {open
+                  image {Resources/angry.png} xywh {575 240 30 25} align 0 hide
+                } {}
+                Fl_Group neutral4D {open
+                  image {Resources/neutral.png} xywh {575 240 30 25} align 0 hide
+                } {}
+              }
+              Fl_Group body4D {open
+                xywh {575 265 39 35}
+              } {
+                Fl_Group car4D {open
+                  image {Resources/car.png} xywh {575 265 39 35} align 0 hide
+                } {}
+                Fl_Group music4D {open
+                  image {Resources/music.png} xywh {575 265 39 35} align 0 hide
+                } {}
+                Fl_Group sword4D {open
+                  image {Resources/sword.png} xywh {575 265 39 35} align 0 hide
+                } {}
+                Fl_Group tree4D {open
+                  image {Resources/tree.png} xywh {575 265 39 35} align 0 hide
+                } {}
+              }
+            }
+          }
+        }
+      }
+      Fl_Group dataView {open selected
+        xywh {630 0 394 500} box UP_BOX color 23 align 0 hide
+      } {
+        Fl_Box pieChart {
+          xywh {630 0 394 250} box UP_FRAME color 0
+          class Fl_Chart
+        }
+        Fl_Box carBarChart {
+          image {Resources/car.png} xywh {630 251 197 125} box UP_FRAME color 0 align 21
+          class Fl_Chart
+        }
+        Fl_Box musicBarChart {
+          image {Resources/music.png} xywh {827 251 196 125} box UP_FRAME color 0 align 25
+          class Fl_Chart
+        }
+        Fl_Box swordBarChart {
+          image {Resources/sword.png} xywh {630 376 197 124} box UP_FRAME color 0 align 21
+          class Fl_Chart
+        }
+        Fl_Box treeBarChart {
+          image {Resources/tree.png} xywh {827 376 196 124} box UP_FRAME color 0 align 25
+          class Fl_Chart
+        }
+      }
+      Fl_Group clickyPortionView {
+        xywh {0 500 1024 100} box UP_BOX color 23
+      } {
+        Fl_Button dialogue1Btn {
+          label {Taxes go up}
+          callback dialogue1_cb
+          xywh {45 515 260 25} down_box DOWN_BOX selection_color 40 deactivate
+        }
+        Fl_Button dialogue2Btn {
+          label {Taxes go down}
+          callback dialogue2_cb
+          xywh {45 555 260 25} down_box DOWN_BOX selection_color 40 deactivate
+        }
+        Fl_Button dialogue3Btn {
+          label {Fix the roads}
+          callback dialogue3_cb
+          xywh {380 515 260 25} down_box DOWN_BOX selection_color 40 deactivate
+        }
+        Fl_Button dialogue4Btn {
+          label {More bicycle lanes}
+          callback dialogue4_cb
+          xywh {380 555 260 25} down_box DOWN_BOX selection_color 40 deactivate
+        }
+        Fl_Button dialogue5Btn {
+          label {New audience}
+          callback dialogue5_cb
+          xywh {700 515 260 25} down_box DOWN_BOX selection_color 40
+        }
+        Fl_Button dialogue6Btn {
+          label {???}
+          callback dialogue6_cb
+          xywh {700 555 260 25} down_box DOWN_BOX selection_color 40 deactivate
+        }
+      }
+    }
+  }
+  Function {dialogue1_cb(Fl_Widget* obj, void* p)} {open return_type {static void}
+  } {}
+  Function {dialogue2_cb(Fl_Widget* obj, void* p)} {open return_type {static void}
+  } {}
+  Function {dialogue3_cb(Fl_Widget* obj, void* p)} {open return_type {static void}
+  } {}
+  Function {dialogue4_cb(Fl_Widget* obj, void* p)} {open return_type {static void}
+  } {}
+  Function {dialogue5_cb(Fl_Widget* obj, void* p)} {open return_type {static void}
+  } {}
+  Function {dialogue6_cb(Fl_Widget* obj, void* p)} {open return_type {static void}
+  } {}
+}
