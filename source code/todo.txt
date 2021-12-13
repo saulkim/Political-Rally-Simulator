@@ -1,3 +1,12 @@
 TODO
-improvements
-~remove duplicate code in buttonInteraction.cpp
+
+
+improvement ideas
+~code base~
+1. remove duplicate code in buttonInteraction.cpp
+-possible solution: create an object+method and pass in "Fl_Widget* obj, void* p" as parameter
+
+
+~UI~
+1. add "i repeat <message>" for repeated messages to explain to user why the same crowd can react differently despite same prompt?
+-see if any users are confused first
