@@ -592,7 +592,12 @@ void UserInterface::dialogue5_cb(Fl_Widget* obj, void* p) {
 	//display setup
 	Fl_Output* textBox = (Fl_Output*)rallyViewGroup->child(0);
 	textBox->value("New audience");
+	Fl_Output* cityTextBox = (Fl_Output*)rallyViewGroup->child(2);
 
+	//cityTextBox->value("qwe");
+	std::string cityName = imgMng->getCityName();
+	const char* c = cityName.c_str();
+	cityTextBox->value(c);
 	
 
 	//refreshes audience data

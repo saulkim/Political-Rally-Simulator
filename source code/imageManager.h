@@ -1,6 +1,7 @@
 #pragma once
 #include <iostream>
 #include <cstdlib>
+#include <string>
 
 class ImageManager {
 public:
@@ -16,6 +17,7 @@ public:
 	int getMusicEmotions(int index);
 	int getSwordEmotions(int index);
 	int getTreeEmotions(int index);
+	std::string getCityName(); //returns a random city name
 
 	void calcTotalFaces(); //counts all the total happy/angry/neutral faces and replaces the private variables for each one	
 	void calcTotalEmotionsPerDemo(); //counts all the individual happy/angry/neutral faces of each demographic and replaces the private variable for each one
@@ -25,10 +27,14 @@ public:
 	void speechOption2();//"Taxes go down" rerolls for 80% will be happy, 20% neutral
 	void speechOption3();//"Fix the roads" rerolls for 30% will be happy (all car enthusiasts will be guaranteed happy), 70% neutral
 	void speechOption4();//"More bicycle lanes" rerolls for 40% will be happy(all environmentalists will be happy), 30% angry (all car enthusiasts wil be angry), 30% neutral
+ 
+	
 
 private:
 
+	std::string cityName[5] = { "Dallas", "San Diego", "New York", "Seattle", "Miami" };
 
+	int cityRollCounter = 0;
 	int totalAudience = 16;
 	int audienceFaces[4][4];
 	int audienceDemographics[4][4];

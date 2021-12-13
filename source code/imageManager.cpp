@@ -59,6 +59,16 @@ int ImageManager::getTreeEmotions(int index) {
 	return value;
 }
 
+std::string ImageManager::getCityName() {
+
+	cityRollCounter++;
+	if (cityRollCounter == 5) {
+		cityRollCounter = 0;
+	}
+
+	return cityName[cityRollCounter];
+}
+
 void ImageManager::calcTotalFaces() {
 
 	totalHappyFaces = 0;

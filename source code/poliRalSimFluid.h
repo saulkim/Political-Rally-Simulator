@@ -179,6 +179,7 @@ public:
   Fl_Group *music4D;
   Fl_Group *sword4D;
   Fl_Group *tree4D;
+  Fl_Output *cityNameTextOutput;
   Fl_Group *dataView;
   Fl_Chart *pieChart;
   Fl_Chart *carBarChart;

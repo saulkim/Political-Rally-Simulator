@@ -13,13 +13,13 @@ class UserInterface {open
       label {Political Rally Simulator} open
       xywh {78 100 1024 600} type Double size_range {1024 600 1024 600} visible
     } {
-      Fl_Group rallyView {
+      Fl_Group rallyView {open
         image {Resources/rallyImage.png} xywh {0 0 630 500} color 7 align 17
       } {
         Fl_Output textOutputField {
           xywh {105 241 150 24}
         }
-        Fl_Group audienceGroup {open
+        Fl_Group audienceGroup {
           xywh {340 0 290 320}
         } {
           Fl_Group row1 {open
@@ -567,8 +567,12 @@ class UserInterface {open
             }
           }
         }
+        Fl_Output cityNameTextOutput {
+          label {City:} selected
+          xywh {85 51 120 48}
+        }
       }
-      Fl_Group dataView {open selected
+      Fl_Group dataView {open
         xywh {630 0 394 500} box UP_BOX color 23 align 0 hide
       } {
         Fl_Box pieChart {
